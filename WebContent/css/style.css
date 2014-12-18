@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+html, body{width: 100%; height: 100%;}
+body,p,textarea,input,ol,ul,li,h1,h2,h3,h4{margin: 0; padding: 0;outline: none;}
+body,h1,h2,h3,h4,input,button,a{font-family:'Nanum Gothic',Arial,sans-serif;color:#555555;}
+a{text-decoration:none}
+ul, ol, li{list-style: none;}
+html, body{overflow: auto;}
+hr{display: block;
+border-top: 1px dashed #E6E6E6;
+border-left-width: 0;
+border-right-width: 0;
+border-bottom-width: 0;}
+
+
+body{
+ 	background-color: antiquewhite;
+}
+
+header{
+	width: 800px;
+	height: 70px;
+	margin: auto;
+}
+
+#menu {
+	line-height: 80px;
+	text-align: right;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-family: 'Hanna';
+	margin: 0 10px;
+}
+
+section{
+	width: 800px;
+	margin: auto;
+}
+
+#top{
+	position: relative;
+}
+
+.top_edge{
+	width: 0;
+	height: 0;
+	border-bottom: 40px solid #FFFFFF;
+	border-left: 40px solid transparent;
+	opacity: 0.8;
+}
+
+.top_bar{
+	position: absolute;
+	top: 0;
+	left: 40px;
+	width: 760px;
+	height: 40px;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+
+}
+
+#content{
+	min-height: 450px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 0 40px;
+}
+
+#bottom{
+	position: relative;
+}
+
+
+.bottom_bar{
+	width: 760px;
+	height: 40px;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.bottom_edge{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 40px solid #FFFFFF;
+	border-right: 40px solid transparent;
+	opacity: 0.8;
+}
+
+nav{
+	width: 800px;
+	height: 100px;
+	margin: auto;
+}
+
+#navi {
+	line-height: 80px;
+	text-align: center;
+}
+
+#navi li{
+	display: inline;
+}
+
+footer{
+	height: 100px;
+}

@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+		
+#head{
+	margin-bottom: 10px;
+}
+
+		
+.title{
+	font-size: 1.8em;
+}
+
+.author, .date{
+	font-size: 0.8em;
+	text-align: right;
+}
+
+.author{
+	margin-top: 10px;
+	font-weight: bold;
+	color: rgb(183,0,0);
+}
+
+.date{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#text{
+	margin-top: 10px;
+}
